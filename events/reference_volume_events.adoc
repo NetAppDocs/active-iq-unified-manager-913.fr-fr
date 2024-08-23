@@ -606,7 +606,7 @@ Primordial
 
 
  a| 
-Seuil d'avertissement ms/op de latence du volume dépassé (avertissement relatif à l'octamesVolumeLatenceAvertissement)
+Seuil d'avertissement de latence du volume dépassé (avertissement cumVolumeLatencyWarning)
  a| 
 Risques
  a| 
