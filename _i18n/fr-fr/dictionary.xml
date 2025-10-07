@@ -11089,7 +11089,6 @@ La boîte de dialogue configurer la protection s'affiche.</block>
   <block id="357a35aedd0c37deb3a881df778a9bb4" category="list-text">Cliquez sur *Restaurer*.</block>
   <block id="58c0234305a387b4aa60babbbd858295" category="paragraph">Le processus de restauration commence. Un travail est créé en arrière-plan pour terminer le processus de restauration.</block>
   <block id="aa2724776cabef1aaa6642e924be93b0" category="list-text">Pour afficher la progression du travail, accédez à *protection &gt; travaux* dans le volet de navigation de gauche pour afficher l'état du travail de restauration dans la liste des travaux.</block>
-  <block id="f19eba4a48c0d8762f03ea93717fbfea" category="paragraph">Si une opération de restauration échoue entre des clusters Cloud Volumes ONTAP HA avec une erreur NDMP, vous devrez peut-être ajouter une route AWS explicite dans le cluster de destination afin que la destination puisse communiquer avec la LIF de cluster management du système source. Vous effectuez cette étape de configuration en utilisant BlueXP.</block>
   <block id="da824e2ac7cbba7766b2892dafabcfae" category="summary">Vous pouvez utiliser la page travaux pour abandonner un travail s'il prend trop de temps à terminer, qu'il rencontre trop d'erreurs ou qu'il n'est plus nécessaire. Vous ne pouvez abandonner un travail que si son état et son type l'autorisent. Vous pouvez abandonner tout travail en cours d'exécution.</block>
   <block id="1c12c5d8cbc396b002ed9535e6114aa2" category="doc">Abandon des travaux</block>
   <block id="2f0eec6ab9cc9e91d12e272bb672a463" category="list-text">Dans la liste des travaux, sélectionnez un travail, puis cliquez sur *abandonner*.</block>
@@ -12031,4 +12030,5 @@ Par défaut, cette colonne est masquée.</block>
   <block id="e9686e752e3e1702e7ee8d1247e9c592" category="paragraph">Serveur virtuel de stockage arrêté (ocumEvtVserverDown)</block>
   <block id="41c588540e5418dc49ed54117bd1d484" category="paragraph">Seuil d'avertissement de latence du volume dépassé (avertissement cumVolumeLatencyWarning)</block>
   <block id="16fca8959952fb5be3bdfc77f00821e0" category="paragraph">Seuil critique de latence du volume dépassé (ocumVolumeLatencyincident)</block>
+  <block id="323f966c65a63cb769e4f899cb19451f" category="paragraph">Si une opération de restauration échoue entre les clusters Cloud Volumes ONTAP HA avec une erreur NDMP, vous devrez peut-être ajouter une route AWS explicite dans le cluster de destination afin que la destination puisse communiquer avec le LIF de gestion de cluster du système source. Vous effectuez cette étape de configuration à l’aide de la console NetApp .</block>
 </blocks>
